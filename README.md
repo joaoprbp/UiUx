@@ -4,15 +4,14 @@ Logo abaixo, está o grafo criado a partir do código da classe `User` dentro da
 
 ```mermaid
 graph TD
-    A[Início] --> B[Chamar método verificarUsuario()]
+    A[Inicio] --> B[Chamar metodo verificarUsuario]
     B --> C[Conectar ao Banco de Dados]
     C --> D[Executar consulta SQL]
     D --> E{Existe resultado?}
     E -->|Sim| F[Define result = true]
-    F --> G[Armazena nome do usuário]
-    G --> H[Fim do método]
-    E -->|Não| I[Define result = false]
+    F --> G[Armazena nome do usuario]
+    G --> H[Fim do metodo]
+    E -->|Nao| I[Define result = false]
     I --> H
     H --> J[Retorna result]
     J --> K[Fim]
-    
