@@ -1,8 +1,8 @@
-# UiUx
-Para esta atividade avaliativa de Ui e Ux, precisavamos analisar um código jáa disponibilizado e montar um grafo e um fluxograma do mesmo.
+Para esta atividade avaliativa de UI e UX, precisávamos analisar um código já disponibilizado e montar um grafo e um fluxograma do mesmo.
 
-Logo abaixo, está o grafo criado a partir do código da classe User dentro da pasta de Login já disponibilizado pela atividade. Com o grafo feito, conseguimos analisar todos os caminhos possíveis, nós e outras informações úteis.
+Logo abaixo, está o grafo criado a partir do código da classe `User` dentro da pasta de `Login`, já disponibilizado pela atividade. Com o grafo feito, conseguimos analisar todos os caminhos possíveis, nós e outras informações úteis.
 
+```mermaid
 graph TD
     A[Início] --> B[Chamar método verificarUsuario()]
     B --> C[Conectar ao Banco de Dados]
@@ -15,3 +15,4 @@ graph TD
     I --> H
     H --> J[Retorna result]
     J --> K[Fim]
+    
