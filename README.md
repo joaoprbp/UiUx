@@ -1,6 +1,6 @@
 # Teste da Caixa branca - Atividade de UiUx
 
-Para esta atividade avaliativa de UI e UX, precisávamos analisar um código já disponibilizado e montar um grafo e um fluxograma do mesmo.
+Para esta atividade avaliativa de UI e UX, precisávamos analisar um código já disponibilizado e montar um grafo do mesmo.
 
 Logo abaixo, está o grafo de fluxo criado a partir do código da classe `User` dentro da pasta de `Login`, já disponibilizado pela atividade. Com o grafo feito, conseguimos analisar todos os caminhos possíveis, nós e outras informações úteis.
 
