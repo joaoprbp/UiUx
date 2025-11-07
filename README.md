@@ -38,27 +38,45 @@ P = Número de componentes conectados
 Com a fórmula em mãos, agora, precisamos identificar cada componente analisando o código e o grafo já feito, com isso, vamos começar analisando quantos nós estão presentes no código:
 
 **N1** = Ínicio do Método
+
 **N2** = Declaração e iniciação da variável `sql`
+
 **N3** = Realização da chamada do método `conectarBD()`
+
 **N4** = Contrói a instrução do SQL
+
 **N5** = Criação do objeto `Statement`
+
 **N6** = Verifica se o resultado da consulta retornou algum dado
+
 **N7** = Quando o resultado é encontrado, defini `result = true`
+
 **N8** = Atribui o valor do campo `nome` obtido do banco à variável `nome`
+
 **N9** = Quando o resultado **não** é encontrado, mantém o valor de `result = false`
+
 **N10** = Retorna o valor de `result` e finaliza o método.  
 
 Com todos os nós devidamente identificados, podemos contar a quantidade de arestas presente no grafo.
 
 De **N1** para **N2**
+
 De **N2** para **N3**
+
 De **N3** para **N4**
+
 De **N4** para **N5**
+
 De **N5** para **N6** (caminho verdadeiro)
+
 De **N5** para **N9** (caminho falso)
+
 De **N6** para **N7**
+
 De **N7** para **N8**
+
 De **N8** para **N10**
+
 De **N9** para **N10**
 
 Totalizando o total de **10 arestas**
@@ -67,12 +85,12 @@ E por último, como no grafo podemos ver que todos os **nós** estão conectados
 
 Agora, com todos os componentes da fórmula ja indentificados, podemos realizar o cálculo da **`Complexidade ciclomática`**, de modo que :
 
-# M = E - N + 2P
+M = E - N + 2P
 
 `E = 10`
 `N = 10`
 `P = 1`
-# M = 10 - 10 + 2 * 1 = 2
+M = 10 - 10 + 2 * 1 = 2
 
 A complexidade ciclomática M desse código é **2**, assim como existem **dois caminhos básicos**:
 
