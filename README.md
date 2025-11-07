@@ -23,7 +23,11 @@ A1["1"] --> A2["2"]
 
 Com o grafo de fluxo já montado, podemos avançar para as próximas etapas da atividade, que envolvem **identificar todos os caminhos básicos** e **realizar os cálculos da complexidade ciclomática do código**, para isso, utilizaremos a fórmula abaixo:
 
-## M = E - N + 2P
+# Complexidade ciclomática
+
+Para calcularmos a Complexidade cilomátida do código precisamos utilizar a fórmula abaixo:
+
+M = E - N + 2P
 
 Onde:
 
@@ -92,7 +96,11 @@ M = E - N + 2P
 `P = 1`
 M = 10 - 10 + 2 * 1 = 2
 
-A complexidade ciclomática M desse código é **2**, assim como existem **dois caminhos básicos**:
+A complexidade ciclomática M desse código é **2**, assim como existem **dois caminhos básicos**.
+
+# Caminhos básicos
+
+A complexidade ciclomática também é a quantidade de caminhos básicos presentes no grafo. Analisando o grafo novamente, conseguimos indentificar os caminhos básicos como:
 
 **N1 -> N2 -> N3 -> N4 -> N5 -> N6 -> N7 -> N8 -> N10**
 **N1 -> N2 -> N3 -> N4 -> N5 -> N9 -> N10**
