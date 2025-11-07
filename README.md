@@ -21,7 +21,7 @@ A1["1"] --> A2["2"]
     A9 --> A10
 ```
 
-Com o grafo de fluxo já montado, podemos avançar para as próximas etapas da atividade, que envolvem **identificar todos os caminhos básicos** e **realizar os cálculos da complexidade ciclomática do código**, para isso, utilizaremos a fórmula abaixo:
+Com o grafo de fluxo já montado, podemos avançar para as próximas etapas da atividade, que envolvem **identificar todos os caminhos básicos** e **realizar os cálculos da complexidade ciclomática do código**.
 
 # Complexidade ciclomática
 
@@ -87,13 +87,14 @@ Totalizando o total de **10 arestas**
 
 E por último, como no grafo podemos ver que todos os **nós** estão conectados de alguma forma (não existe nenhum nó isolado), podemos considerar **P = 1**
 
-Agora, com todos os componentes da fórmula ja indentificados, podemos realizar o cálculo da **`Complexidade ciclomática`**, de modo que :
+Agora, com todos os componentes da fórmula ja indentificados, podemos realizar o cálculo da **`Complexidade ciclomática`**, de modo que:
 
 M = E - N + 2P
 
 `E = 10`
 `N = 10`
 `P = 1`
+
 M = 10 - 10 + 2 * 1 = 2
 
 A complexidade ciclomática M desse código é **2**, assim como existem **dois caminhos básicos**.
