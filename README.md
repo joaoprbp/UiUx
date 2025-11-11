@@ -1,6 +1,6 @@
 # Teste da Caixa branca - Atividade de UiUx
 
-Para esta atividade avaliativa de UI e UX, precisávamos analisar um código já disponibilizado e montar um grafo e um fluxograma do mesmo.
+Para esta atividade avaliativa de UI e UX, precisávamos analisar um código já disponibilizado e montar um grafo do mesmo.
 
 Logo abaixo, está o grafo de fluxo criado a partir do código da classe `User` dentro da pasta de `Login`, já disponibilizado pela atividade. Com o grafo feito, conseguimos analisar todos os caminhos possíveis, nós e outras informações úteis.
 
@@ -23,7 +23,7 @@ Com o grafo de fluxo já montado, podemos avançar para as próximas etapas da a
 
 # Complexidade ciclomática
 
-Para calcularmos a Complexidade cilomátida do código precisamos utilizar a fórmula abaixo:
+Para calcularmos a Complexidade ciclomática do código precisamos utilizar a fórmula abaixo:
 
 M = E - N + 2P
 
@@ -37,7 +37,7 @@ N = Número de nós
 
 P = Número de componentes conectados
 
-Com a fórmula em mãos, agora, precisamos identificar cada componente analisando o código e o grafo já feito, com isso, vamos começar analisando quantos nós estão presentes no código:
+Com a fórmula em mãos, agora, precisamos identificar cada componente analisando o código e o grafo já feito. Dito isso, vamos começar analisando quantos nós estão presentes no código:
 
 **N1** = Ínicio do Método
 
@@ -45,13 +45,13 @@ Com a fórmula em mãos, agora, precisamos identificar cada componente analisand
 
 **N3** = Realização da chamada do método `conectarBD()`
 
-**N4** = Contrói a instrução do SQL
+**N4** = Constrói a instrução do SQL
 
 **N5** = Criação do objeto `Statement`
 
 **N6** = Verifica se o resultado da consulta retornou algum dado
 
-**N7** = Quando o resultado é encontrado, defini `result = true`
+**N7** = Quando o resultado é encontrado, define `result = true`
 
 **N8** = Atribui o valor do campo `nome` obtido do banco à variável `nome`
 
@@ -85,7 +85,7 @@ Totalizando o total de **10 arestas**
 
 E por último, como no grafo podemos ver que todos os **nós** estão conectados de alguma forma (não existe nenhum nó isolado), podemos considerar **P = 1**
 
-Agora, com todos os componentes da fórmula ja indentificados, podemos realizar o cálculo da **`Complexidade ciclomática`**, de modo que:
+Agora, com todos os componentes da fórmula já indentificados, podemos realizar o cálculo da **`Complexidade ciclomática`**, de modo que:
 
 M = E - N + 2P
 
