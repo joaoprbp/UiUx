@@ -7,17 +7,15 @@ Logo abaixo, está o grafo de fluxo criado a partir do código da classe `User` 
 # Grafo de fluxo
 ```mermaid
 flowchart TD
-A1["1"] --> A2["2"]
-    A2 --> A3["3"]
-    A3 --> A4["4"]
-    A4 --> A5["5"]
-
-    A5 -->|Sim| A6["6"]
-    A6 --> A7["7"]
-    A7 --> A8["8"]
-    A8 --> A10["10"]
-
-    A5 -->|Nao| A9["9"]
+    A1(["1"]) --> A2(["2"])
+    A2 --> A3(["3"])
+    A3 --> A4(["4"])
+    A4 --> A5(["5"])
+    A5 -- Sim --> A6(["6"])
+    A6 --> A7(["7"])
+    A7 --> A8(["8"])
+    A8 --> A10(["10"])
+    A5 -- Nao --> A9(["9"])
     A9 --> A10
 ```
 
