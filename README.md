@@ -6,7 +6,7 @@ Esta atividade tem como objetivo analisar o código disponibilizado previamente 
 
 <img width="855" height="450" alt="image" src="https://github.com/user-attachments/assets/c3b3ab00-281c-4e39-86f6-5507a53c58c9" />
 
-## 📌 1. Grafo de Fluxo (Mermaid)
+## 📌 1. Grafo de Fluxo
 
 ```mermaid
 flowchart TD
