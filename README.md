@@ -2,6 +2,10 @@
 
 Esta atividade tem como objetivo analisar o código disponibilizado previamente pelo professor por meio da **notação de grafo de fluxo**, **complexidade ciclomática** e **caminhos básicos**.
 
+## Planilha de Testes
+
+<img width="855" height="450" alt="image" src="https://github.com/user-attachments/assets/c3b3ab00-281c-4e39-86f6-5507a53c58c9" />
+
 ## 📌 1. Grafo de Fluxo (Mermaid)
 
 ```mermaid
@@ -64,6 +68,7 @@ Total de decisões: 3
 **M = D + 1**
 
 M = 3 + 1
+
 M = 4
 
 * Complexidade ciclomática = 4 *
